@@ -1,0 +1,55 @@
+/* Tokens copied from the Figma file (collections: Semantic, Dimensions).
+   Names match the code syntax set on each Figma variable. */
+:root {
+  /* colour: background */
+  --color-bg-canvas: #F4F6F9;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #EEF1F6;
+  --color-bg-brand: #2F5BD3;
+  --color-bg-brand-hover: #2347AD;
+  --color-bg-brand-subtle: #E8EEFC;
+  --color-bg-success: #E5F4EC;
+  --color-bg-warning: #FFF4DE;
+  --color-bg-danger: #FDECEA;
+  --color-bg-annotation: #FFE27A;
+
+  /* colour: text */
+  --color-text-primary: #1C2533;
+  --color-text-secondary: #5B6678;
+  --color-text-on-brand: #FFFFFF;
+  --color-text-brand: #2F5BD3;
+  --color-text-success: #1E7A4B;
+  --color-text-warning: #8A5300;
+  --color-text-danger: #B42318;
+
+  /* colour: border */
+  --color-border-default: #D9DEE7;
+  --color-border-strong: #7A8599; /* 3.7:1 on white, WCAG 1.4.11 */
+  --color-border-brand: #2F5BD3;
+  --color-border-warning: #8A5300;
+  --color-border-danger: #B42318;
+
+  /* spacing (4/8 px scale) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* elevation */
+  --elevation-1: 0 2px 8px rgba(28, 38, 51, 0.08);
+  --elevation-2: 0 8px 24px rgba(28, 38, 51, 0.12);
+
+  /* focus ring (not in Figma v1.1, added for WCAG 2.4.7) */
+  --focus-ring: 0 0 0 3px #FFFFFF, 0 0 0 5px #2F5BD3;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
